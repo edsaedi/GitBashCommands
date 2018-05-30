@@ -20,4 +20,8 @@ vim - text editor
 
 GIT:
 
-git init
+git init - creates a git folder in the current directory (starts the whole git process)
+git status - shows the current status of your git, and useful tips
+git add - stages files. makes them ready to commit
+git commit -m "Message" - creates a commit (save node) of your staged files with a message
+git log - shows your git history
