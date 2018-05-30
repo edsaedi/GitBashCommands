@@ -1,0 +1,23 @@
+TAB will autofill word
+UP/DOWN arrows cycle through previous commands
+
+BASH:
+
+ls - list
+pwd - project working directory - tells you where you are at
+cd - change directory
+. - current directory
+.. - previous directory
+clear
+~ - shortcut to home
+/ - root
+touch - creates a file
+mkdir - creates a directory
+
+--help, as a flag to get help on any bash or git function
+~/folder/ - goes to home then goes to folder
+vim - text editor
+
+GIT:
+
+git init
