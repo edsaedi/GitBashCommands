@@ -1,5 +1,13 @@
+Vocab:
+directory = folder
+repository = folder that has git in it
+local = stuff on your computer
+remote = seperate computer / cloud / online server
+
 TAB will autofill word
 UP/DOWN arrows cycle through previous commands
+&& multiple bash commands to run them one after the other
+
 
 BASH:
 
@@ -20,8 +28,20 @@ vim - text editor (:q is quit, :w is save, :wq is save and quit)
 
 GIT:
 
+Local: 
 git init - creates a git folder in the current directory (starts the whole git process)
 git status - shows the current status of your git, and useful tips
 git add - stages files. makes them ready to commit
 git commit -m "Message" - creates a commit (save node) of your staged files with a message
 git log - shows your git history
+git checkout <branch or commit name> - moves head to that commit
+
+Config:
+for below, command prints out variable, follow with "value" to set variable to the value
+git config --local user.name
+git config --local user.email
+git config --global user.name
+git config --global user.email
+
+Repo:
+git remote add origin <url> - adds url for the push command
