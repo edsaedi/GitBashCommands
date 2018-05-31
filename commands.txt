@@ -16,7 +16,7 @@ mkdir - creates a directory
 
 --help, as a flag to get help on any bash or git function
 ~/folder/ - goes to home then goes to folder
-vim - text editor
+vim - text editor (:q is quit, :w is save, :wq is save and quit)
 
 GIT:
 
