@@ -45,3 +45,13 @@ git config --global user.email
 
 Repo:
 git remote add origin <url> - adds url for the push command
+git push <remote name> <branch name> - puts the local git history online
+> git push origin master
+git push --set-upstream origin master = sets 'git push' to automatically push to origin master
+git clone <url> - copies git repo from online to computer
+git pull - brings recent changes that are online onto your computer (updates local repo)
+
+Advanced Stuff:
+git fetch
+git merge
+...
