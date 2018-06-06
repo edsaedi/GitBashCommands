@@ -40,7 +40,7 @@ Config:
 for below, command prints out variable, follow with "value" to set variable to the value
 git config --local user.name
 git config --local user.email
-git config --global user.name
+git config --global user.namegit
 git config --global user.email
 
 Repo:
@@ -53,5 +53,9 @@ git pull - brings recent changes that are online onto your computer (updates loc
 
 Advanced Stuff:
 git fetch
-git merge
+git merge 
 ...
+
+Faster Way to Create Repo:
+1.Open github and create new repository
+2.Git clone into repository
